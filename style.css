@@ -11,9 +11,7 @@ h1{
 .blue-color{
     color: blue;
 }
-section{
-    display: flex;
-}
+
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -29,7 +27,13 @@ section{
     font-weight: 700;
     background-image: linear-gradient(rgb(11, 14, 213),rgb(107, 7, 81));
 }
-.sec{
+section{
+    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.sec2{
+    background-image: url(images/dream-bg.png);
+    background-position: right;
 }
