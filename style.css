@@ -27,13 +27,44 @@ h1{
     font-weight: 700;
     background-image: linear-gradient(rgb(11, 14, 213),rgb(107, 7, 81));
 }
-section{
+.flexible{
     display: flex;
-    background-image: url(images/top-banner.png);
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+section{
+    
     background-repeat: no-repeat;
     margin-bottom: 150px;
+    
+}
+.sec1{
+    background-image: url(images/top-banner.png);
+    
 }
 .sec2{
     background-image: url(images/dream-bg.png);
     background-position: right;
+}
+.experience{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+#leftpart{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(222, 5, 52),rgb(102, 11, 118));
+    border-image-slice: 1;
+}
+#rightpart{
+    border-left: 10px solid;
+    border-image: linear-gradient(purple,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
